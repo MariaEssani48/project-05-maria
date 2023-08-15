@@ -24,8 +24,6 @@ async function countingWords(sentence) {
     let countValue = myArr.length;
     return countValue;
 }
-let v = countingWords("How are you?");
-console.log(v);
 //To take user input and generate output
 async function userInput() {
     const answer = await inquirer.
